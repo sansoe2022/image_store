@@ -1,6 +1,17 @@
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
-  <rect width="200" height="200" fill="green"/>
-  <circle cx="100" cy="100" r="80" fill="white"/>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="48" fill="green">MWD</text>
-  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="24" fill="green">Zay</text>
+  <!-- Background in green color -->
+  <rect width="200" height="200" fill="green" />
+
+  <!-- White circle in the center -->
+  <circle cx="100" cy="100" r="80" fill="white" />
+
+  <!-- MWD Zay text inside the circle -->
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="32" fill="green" font-weight="bold">MWD</text>
+  <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="24" fill="green">Zay</text>
+
+  <!-- Decorative leaves around the circle -->
+  <path d="M50 100 Q75 70, 100 100 Q75 130, 50 100" fill="white" />
+  <path d="M150 100 Q125 70, 100 100 Q125 130, 150 100" fill="white" />
+  <path d="M100 50 Q70 75, 100 100 Q130 75, 100 50" fill="white" />
+  <path d="M100 150 Q70 125, 100 100 Q130 125, 100 150" fill="white" />
 </svg>
