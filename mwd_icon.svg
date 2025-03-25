@@ -10,11 +10,12 @@
   <!-- Background circle with gradient -->
   <circle cx="100" cy="100" r="80" fill="url(#greenWhiteGradient)" />
 
-  <!-- Letter M with a different style -->
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="96" fill="green" font-weight="bold" transform="rotate(-15 100 100)">M</text>
+  <!-- Letter M with a modern style and shadow for iconic look -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="96" fill="green" font-weight="bold" transform="rotate(-10 100 100)" style="filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));">M</text>
 
-  <!-- Decorative leaf icon at the top with gradient -->
-  <path d="M100 20 C 90 40, 110 40, 100 20 Z" fill="url(#greenWhiteGradient)" />
-  <!-- Decorative leaf icon at the bottom with gradient -->
-  <path d="M100 180 C 90 160, 110 160, 100 180 Z" fill="url(#greenWhiteGradient)" />
+  <!-- Decorative elements to enhance the iconic look -->
+  <!-- Top decorative element -->
+  <path d="M100 20 C 90 40, 110 40, 100 20 Z" fill="url(#greenWhiteGradient)" style="filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));"/>
+  <!-- Bottom decorative element -->
+  <path d="M100 180 C 90 160, 110 160, 100 180 Z" fill="url(#greenWhiteGradient)" style="filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));"/>
 </svg>
