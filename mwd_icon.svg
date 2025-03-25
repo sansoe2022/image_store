@@ -13,7 +13,7 @@
   <!-- Letter M in black, centered -->
   <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="96" fill="black" font-weight="bold">M</text>
 
-  <!-- Decorative elements for iconic look -->
+  <!-- Decorative elements -->
   <!-- Top-left decorative element -->
   <path d="M70 30 L90 10 L110 30 Z" fill="url(#greenWhiteGradient)" style="filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));"/>
   <!-- Bottom-right decorative element -->
