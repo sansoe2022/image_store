@@ -5,11 +5,16 @@
       <stop offset="0%" style="stop-color:#00FF00;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
     </linearGradient>
+    <!-- Define the 3D effect for the text -->
+    <filter id="f3" x="0" y="0">
+      <feOffset result="offOut" in="SourceGraphic" dx="5" dy="5" />
+      <feBlend in="SourceGraphic" in2="offOut" mode="normal" />
+    </filter>
   </defs>
 
   <!-- Background circle with gradient -->
   <circle cx="100" cy="100" r="80" fill="url(#greenWhiteGradient)" />
 
-  <!-- Letter M in black, centered -->
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="96" fill="black" font-weight="bold">M</text>
+  <!-- Letter M in black with 3D effect, centered -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="96" fill="black" font-weight="bold" filter="url(#f3)">M</text>
 </svg>
