@@ -13,9 +13,9 @@
   <!-- Letter M in black, centered -->
   <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="96" fill="black" font-weight="bold">M</text>
 
-  <!-- Decorative elements to enhance the iconic look -->
-  <!-- Top decorative element -->
-  <path d="M100 20 C 90 40, 110 40, 100 20 Z" fill="url(#greenWhiteGradient)" style="filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));"/>
-  <!-- Bottom decorative element -->
-  <path d="M100 180 C 90 160, 110 160, 100 180 Z" fill="url(#greenWhiteGradient)" style="filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));"/>
+  <!-- Decorative elements for iconic look -->
+  <!-- Top-left decorative element -->
+  <path d="M70 30 L90 10 L110 30 Z" fill="url(#greenWhiteGradient)" style="filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));"/>
+  <!-- Bottom-right decorative element -->
+  <path d="M130 170 L110 190 L90 170 Z" fill="url(#greenWhiteGradient)" style="filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));"/>
 </svg>
